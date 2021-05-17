@@ -1,11 +1,13 @@
 name: class-environment
 channels:
   - conda-forge
+  - intel
 dependencies:
   - python=3.8.4
   - altair=4.1.0
   - pandas=1.2.4
   - numpy=1.19.2
+  - scikit-learn
   - pip
   - pip:
     - dmba
